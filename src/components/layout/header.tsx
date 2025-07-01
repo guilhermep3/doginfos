@@ -7,9 +7,9 @@ export const Header = () => {
       <div className={'container mx-auto p-3 flex justify-center items-center gap-10'}>
         <div className="flex items-center gap-2">
           <div className="w-10 md:w-16">
-            <img src="/doginfos.png" alt="doginfos logo" className="w-full" />
+            <img src="/dogsinfos.png" alt="dogsinfos logo" className="w-full" />
           </div>
-          <p className="hidden sm:block sourGummy text-3xl font-extrabold text-blue-900 uppercase">DogInfos</p>
+          <p className="hidden sm:block sourGummy text-3xl font-extrabold text-blue-900 uppercase">DogsInfos</p>
         </div>
         <div className="flex items-center gap-2 border border-zinc-400 py-2 px-4 rounded-full focus-within:border-blue-600">
           <Search className="text-zinc-500" />

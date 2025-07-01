@@ -7,8 +7,8 @@
     "countryOrigin": "Canadá",
     "colors": [
       "Preto",
-      "Chocolate",
-      "Amarelo"
+      "Marrom",
+      "Caramelo"
     ],
     "lifeExpectancy": "10 a 12 anos",
     "adultWeightKg": "25 a 36 kg",
@@ -24,9 +24,7 @@
     "size": "Médio",
     "countryOrigin": "Escócia",
     "colors": [
-      "Dourado claro",
-      "Dourado médio",
-      "Dourado escuro"
+      "Dourado"
     ],
     "lifeExpectancy": "10 a 12 anos",
     "adultWeightKg": "25 a 34 kg",
@@ -40,14 +38,14 @@
     "breed": "Poodle",
     "image": "poodle.jpg",
     "size": "Pequeno",
-    "countryOrigin": "Alemanha",
+    "countryOrigin": "Alemanha/França",
     "colors": [
       "Branco",
       "Preto",
       "Marrom",
       "Cinza",
       "Dourado",
-      "Apricot"
+      "Laranja"
     ],
     "lifeExpectancy": "12 a 15 anos",
     "adultWeightKg": "6 a 12 kg",
@@ -63,7 +61,6 @@
     "size": "Pequeno",
     "countryOrigin": "França",
     "colors": [
-      "Fulvo",
       "Tigrado",
       "Preto",
       "Branco",
@@ -102,7 +99,7 @@
     "colors": [
       "Preto e marrom",
       "Cinza",
-      "Preto sólido"
+      "Preto"
     ],
     "lifeExpectancy": "9 a 13 anos",
     "adultWeightKg": "22 a 40 kg",
@@ -129,6 +126,277 @@
     "classification": [
       "Caça",
       "Companhia"
+    ]
+  },
+  {
+    "id": 8,
+    "breed": "Rottweiler",
+    "image": "rottweiler.jpg",
+    "size": "Grande",
+    "countryOrigin": "Alemanha",
+    "colors": [
+      "Preto e marrom"
+    ],
+    "lifeExpectancy": "8 a 10 anos",
+    "adultWeightKg": "35 a 60 kg",
+    "classification": [
+      "Guarda",
+      "Companhia"
+    ]
+  },
+  {
+    "id": 9,
+    "breed": "Yorkshire Terrier",
+    "image": "yorkshire_terrier.jpg",
+    "size": "Pequeno",
+    "countryOrigin": "Reino Unido",
+    "colors": [
+      "Cinza",
+      "Dourado",
+      "Preto"
+    ],
+    "lifeExpectancy": "13 a 16 anos",
+    "adultWeightKg": "2 a 3 kg",
+    "classification": [
+      "Companhia"
+    ]
+  },
+  {
+    "id": 10,
+    "breed": "Shih Tzu",
+    "image": "shih_tzu.jpg",
+    "size": "Pequeno",
+    "countryOrigin": "China",
+    "colors": [
+      "Branco",
+      "Marrom",
+      "Preto",
+      "Dourado",
+      "Cinza"
+    ],
+    "lifeExpectancy": "10 a 16 anos",
+    "adultWeightKg": "4 a 7 kg",
+    "classification": [
+      "Companhia"
+    ]
+  },
+  {
+    "id": 11,
+    "breed": "Border Collie",
+    "image": "border_collie.jpg",
+    "size": "Médio",
+    "countryOrigin": "Reino Unido",
+    "colors": [
+      "Preto e branco",
+      "Merle",
+      "Tricolor",
+      "Marrom e branco"
+    ],
+    "lifeExpectancy": "12 a 15 anos",
+    "adultWeightKg": "14 a 20 kg",
+    "classification": [
+      "Assistência",
+      "Companhia"
+    ]
+  },
+  {
+    "id": 12,
+    "breed": "Dachshund",
+    "image": "dachshund.jpg",
+    "size": "Pequeno",
+    "countryOrigin": "Alemanha",
+    "colors": [
+      "Marrom",
+      "Preto e marrom",
+      "Vermelho",
+      "Tigrado"
+    ],
+    "lifeExpectancy": "12 a 16 anos",
+    "adultWeightKg": "7 a 14 kg",
+    "classification": [
+      "Caça",
+      "Companhia"
+    ]
+  },
+  {
+    "id": 13,
+    "breed": "Boxer",
+    "image": "boxer.jpg",
+    "size": "Grande",
+    "countryOrigin": "Alemanha",
+    "colors": [
+      "Caramelo",
+      "Tigrado",
+      "Branco"
+    ],
+    "lifeExpectancy": "10 a 12 anos",
+    "adultWeightKg": "25 a 32 kg",
+    "classification": [
+      "Guarda",
+      "Companhia"
+    ]
+  },
+  {
+    "id": 14,
+    "breed": "Doberman",
+    "image": "doberman.jpg",
+    "size": "Grande",
+    "countryOrigin": "Alemanha",
+    "colors": [
+      "Preto e marrom",
+      "Marrom",
+      "Azul",
+      "Isabela"
+    ],
+    "lifeExpectancy": "10 a 13 anos",
+    "adultWeightKg": "30 a 45 kg",
+    "classification": [
+      "Guarda",
+      "Companhia"
+    ]
+  },
+  {
+    "id": 15,
+    "breed": "Husky Siberiano",
+    "image": "husky_siberiano.jpg",
+    "size": "Grande",
+    "countryOrigin": "Rússia",
+    "colors": [
+      "Cinza",
+      "Preto e branco",
+      "Vermelho",
+      "Branco"
+    ],
+    "lifeExpectancy": "12 a 14 anos",
+    "adultWeightKg": "20 a 27 kg",
+    "classification": [
+      "Companhia",
+      "Competições de agilidade"
+    ]
+  },
+  {
+    "id": 16,
+    "breed": "Chihuahua",
+    "image": "chihuahua.jpg",
+    "size": "Pequeno",
+    "countryOrigin": "México",
+    "colors": [
+      "Marrom",
+      "Preto",
+      "Branco",
+      "Dourado",
+      "Mesclado"
+    ],
+    "lifeExpectancy": "14 a 17 anos",
+    "adultWeightKg": "15 a 3 kg",
+    "classification": [
+      "Companhia"
+    ]
+  },
+  {
+    "id": 17,
+    "breed": "Pug",
+    "image": "pug.jpg",
+    "size": "Pequeno",
+    "countryOrigin": "China",
+    "colors": [
+      "Caramelo",
+      "Preto",
+      "Cinza",
+      "Abricot"
+    ],
+    "lifeExpectancy": "12 a 15 anos",
+    "adultWeightKg": "6 a 9 kg",
+    "classification": [
+      "Companhia"
+    ]
+  },
+  {
+    "id": 18,
+    "breed": "Vira-lata",
+    "image": "vira_lata.jpg",
+    "size": "Médio",
+    "countryOrigin": "Brasil",
+    "colors": [
+      "Preto",
+      "Caramelo",
+      "Branco",
+      "Mesclado"
+    ],
+    "lifeExpectancy": "12 a 16 anos",
+    "adultWeightKg": "10 a 25 kg",
+    "classification": [
+      "Companhia",
+      "Guarda"
+    ]
+  },
+  {
+    "id": 19,
+    "breed": "Cocker Spaniel",
+    "image": "cocker_spaniel.jpg",
+    "size": "Médio",
+    "countryOrigin": "Reino Unido",
+    "colors": [
+      "Dourado",
+      "Preto",
+      "Marrom",
+      "Tricolor",
+      "Azul ruão"
+    ],
+    "lifeExpectancy": "12 a 15 anos",
+    "adultWeightKg": "12 a 15 kg",
+    "classification": [
+      "Caça",
+      "Companhia"
+    ]
+  },
+  {
+    "id": 20,
+    "breed": "Maltês",
+    "image": "maltes.jpg",
+    "size": "Pequeno",
+    "countryOrigin": "Itália",
+    "colors": [
+      "Branco"
+    ],
+    "lifeExpectancy": "12 a 15 anos",
+    "adultWeightKg": "3 a 4 kg",
+    "classification": [
+      "Companhia"
+    ]
+  },
+  {
+    "id": 21,
+    "breed": "Fila Brasileiro",
+    "image": "fila_brasileiro.jpg",
+    "size": "Grande",
+    "countryOrigin": "Brasil",
+    "colors": [
+      "Caramelo",
+      "Tigrado",
+      "Preto"
+    ],
+    "lifeExpectancy": "9 a 11 anos",
+    "adultWeightKg": "40 a 60 kg",
+    "classification": [
+      "Guarda",
+      "Caça"
+    ]
+  },
+  {
+    "id": 22,
+    "breed": "Fox Paulistinha",
+    "image": "fox_paulistinha.jpg",
+    "size": "Médio",
+    "countryOrigin": "Brasil",
+    "colors": [
+      "Tricolor"
+    ],
+    "lifeExpectancy": "13 a 16 anos",
+    "adultWeightKg": "6 a 10 kg",
+    "classification": [
+      "Companhia",
+      "Competições de agilidade"
     ]
   }
 ]

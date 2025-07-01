@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { AsideItem } from "../asideItem";
 import { dogType } from "@/types/dogType";
-import { X } from "lucide-react";
+import { ChevronDown, ChevronUp, X } from "lucide-react";
 import { useMobileAsideStore } from "@/store/mobileAsideStore";
 
 const asideTitleStyle = "p-3 bg-gray-200 border-l-4 border-blue-700 font-bold text-base text-blue-900 cursor-pointer";
@@ -47,9 +47,9 @@ export const AsideDogs = ({
   const renderToggle = (expanded: boolean, toggleFn: () => void) => (
     <button
       onClick={toggleFn}
-      className="text-blue-900 text-sm mt-2 ml-2 hover:underline cursor-pointer"
+      className="flex items-center gap-2 text-blue-900 text-sm mt-2 ml-2 hover:underline cursor-pointer"
     >
-      {expanded ? '▲ Mostrar menos' : '▼ Mostrar mais'}
+      {expanded ? <><ChevronUp /> Mostrar menos</> : <><ChevronDown /> Mostrar mais</>}
     </button>
   );
 
@@ -58,7 +58,7 @@ export const AsideDogs = ({
       ${isMobile ? 'fixed left-0 right-0 bottom-0 z-40 max-h-3/4 w-full overflow-y-scroll' : ' top-0 w-64'}
       ${isMobile ? (isAsideOpen ? '-translate-y-0' : 'translate-y-full') : ''}
     `}>
-      <div className="size-8 p-2 sm:hidden">
+      <div className="flex justify-start items-center p-3 lg:hidden">
         <X className="mr-auto cursor-pointer text-black z-40" onClick={() => closeAside()} />
       </div>
       <div className="flex flex-col">
