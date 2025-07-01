@@ -28,9 +28,17 @@ export const AsideDogs = ({
   const [showAllCountries, setShowAllCountries] = useState(false);
   const { isAsideOpen, closeAside } = useMobileAsideStore();
 
-  const uniqueSizes = [...new Set(dogsData.map(dog => dog.size))];
-  const uniqueColors = [...new Set(dogsData.flatMap(dog => dog.colors))];
-  const uniqueCountries = [...new Set(dogsData.map(dog => dog.countryOrigin))];
+  const sizeOrder = ['Pequeno', 'Médio', 'Grande'];
+
+  const uniqueSizes = [...new Set(dogsData.map(dog => dog.size)
+    .sort((a, b) => sizeOrder.indexOf(a) - sizeOrder.indexOf(b))
+  )];
+  const uniqueColors = [...new Set(dogsData.flatMap(dog => dog.colors)
+    .sort((a, b) => a.localeCompare(b))
+  )];
+  const uniqueCountries = [...new Set(dogsData.map(dog => dog.countryOrigin)
+    .sort((a, b) => a.localeCompare(b))
+  )];
 
   useEffect(() => {
     const handleResize = () => {

@@ -12,7 +12,7 @@ export const DogsSection = () => {
   const [selectedCountry, setSelectedCountry] = useState<string[]>([]);
 
   useEffect(() => {
-    fetch('https://api-dogsinfos.onrender.com/')
+    fetch("https://api-dogsinfos.onrender.com/")
       .then(res => res.json())
       .then(data => setDogsData(data))
       .catch(err => {

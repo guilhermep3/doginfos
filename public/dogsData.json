@@ -15,7 +15,8 @@
     "classification": [
       "Companhia",
       "Assistência"
-    ]
+    ],
+    "description": "O Labrador é dócil, brincalhão e inteligente, ideal para famílias ativas. Vive bem em casas com quintal e adora água e brincadeiras ao ar livre."
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
     "classification": [
       "Companhia",
       "Assistência"
-    ]
+    ],
+    "description": "O Golden é afetuoso, calmo e excelente com crianças. Se adapta a espaços maiores e precisa de exercícios diários para manter a saúde física e mental."
   },
   {
     "id": 3,
@@ -52,7 +54,8 @@
     "classification": [
       "Companhia",
       "Competições de agilidade"
-    ]
+    ],
+    "description": "O Poodle é inteligente, hipoalergênico e aprende comandos com facilidade. Ideal para apartamentos, desde que tenha estímulos mentais e caminhadas regulares."
   },
   {
     "id": 4,
@@ -70,7 +73,8 @@
     "adultWeightKg": "8 a 14 kg",
     "classification": [
       "Companhia"
-    ]
+    ],
+    "description": "Afetuoso e tranquilo, o Bulldog Francês adora companhia humana. Vive muito bem em apartamentos, mas exige atenção por causa de problemas respiratórios."
   },
   {
     "id": 5,
@@ -88,7 +92,8 @@
     "adultWeightKg": "18 a 25 kg",
     "classification": [
       "Companhia"
-    ]
+    ],
+    "description": "O Bulldog Inglês é calmo e companheiro, ideal para lares tranquilos. Adapta-se bem a apartamentos, mas requer cuidados com calor e exercícios leves."
   },
   {
     "id": 6,
@@ -107,7 +112,8 @@
       "Guarda",
       "Resgate",
       "Companhia"
-    ]
+    ],
+    "description": "Leal, protetor e inteligente, o Pastor Alemão é excelente para guarda e resgate. Precisa de espaço e atividades, sendo mais adequado a casas com quintal ou áreas abertas."
   },
   {
     "id": 7,
@@ -126,7 +132,8 @@
     "classification": [
       "Caça",
       "Companhia"
-    ]
+    ],
+    "description": "O Beagle é curioso, sociável e enérgico. Se adapta a casas e apartamentos com rotina ativa, mas requer atenção por seu faro aguçado e tendência a fugir."
   },
   {
     "id": 8,
@@ -142,7 +149,8 @@
     "classification": [
       "Guarda",
       "Companhia"
-    ]
+    ],
+    "description": "O Rottweiler é forte, leal e protetor. Ideal para casas com espaço e donos experientes; precisa de socialização e adestramento desde cedo."
   },
   {
     "id": 9,
@@ -159,7 +167,8 @@
     "adultWeightKg": "2 a 3 kg",
     "classification": [
       "Companhia"
-    ]
+    ],
+    "description": "Pequeno, valente e elegante, o Yorkshire é ótimo para apartamentos. Precisa de escovação frequente e adora estar no colo do tutor."
   },
   {
     "id": 10,
@@ -178,225 +187,7 @@
     "adultWeightKg": "4 a 7 kg",
     "classification": [
       "Companhia"
-    ]
-  },
-  {
-    "id": 11,
-    "breed": "Border Collie",
-    "image": "border_collie.jpg",
-    "size": "Médio",
-    "countryOrigin": "Reino Unido",
-    "colors": [
-      "Preto e branco",
-      "Merle",
-      "Tricolor",
-      "Marrom e branco"
     ],
-    "lifeExpectancy": "12 a 15 anos",
-    "adultWeightKg": "14 a 20 kg",
-    "classification": [
-      "Assistência",
-      "Companhia"
-    ]
-  },
-  {
-    "id": 12,
-    "breed": "Dachshund",
-    "image": "dachshund.jpg",
-    "size": "Pequeno",
-    "countryOrigin": "Alemanha",
-    "colors": [
-      "Marrom",
-      "Preto e marrom",
-      "Vermelho",
-      "Tigrado"
-    ],
-    "lifeExpectancy": "12 a 16 anos",
-    "adultWeightKg": "7 a 14 kg",
-    "classification": [
-      "Caça",
-      "Companhia"
-    ]
-  },
-  {
-    "id": 13,
-    "breed": "Boxer",
-    "image": "boxer.jpg",
-    "size": "Grande",
-    "countryOrigin": "Alemanha",
-    "colors": [
-      "Caramelo",
-      "Tigrado",
-      "Branco"
-    ],
-    "lifeExpectancy": "10 a 12 anos",
-    "adultWeightKg": "25 a 32 kg",
-    "classification": [
-      "Guarda",
-      "Companhia"
-    ]
-  },
-  {
-    "id": 14,
-    "breed": "Doberman",
-    "image": "doberman.jpg",
-    "size": "Grande",
-    "countryOrigin": "Alemanha",
-    "colors": [
-      "Preto e marrom",
-      "Marrom",
-      "Azul",
-      "Isabela"
-    ],
-    "lifeExpectancy": "10 a 13 anos",
-    "adultWeightKg": "30 a 45 kg",
-    "classification": [
-      "Guarda",
-      "Companhia"
-    ]
-  },
-  {
-    "id": 15,
-    "breed": "Husky Siberiano",
-    "image": "husky_siberiano.jpg",
-    "size": "Grande",
-    "countryOrigin": "Rússia",
-    "colors": [
-      "Cinza",
-      "Preto e branco",
-      "Vermelho",
-      "Branco"
-    ],
-    "lifeExpectancy": "12 a 14 anos",
-    "adultWeightKg": "20 a 27 kg",
-    "classification": [
-      "Companhia",
-      "Competições de agilidade"
-    ]
-  },
-  {
-    "id": 16,
-    "breed": "Chihuahua",
-    "image": "chihuahua.jpg",
-    "size": "Pequeno",
-    "countryOrigin": "México",
-    "colors": [
-      "Marrom",
-      "Preto",
-      "Branco",
-      "Dourado",
-      "Mesclado"
-    ],
-    "lifeExpectancy": "14 a 17 anos",
-    "adultWeightKg": "15 a 3 kg",
-    "classification": [
-      "Companhia"
-    ]
-  },
-  {
-    "id": 17,
-    "breed": "Pug",
-    "image": "pug.jpg",
-    "size": "Pequeno",
-    "countryOrigin": "China",
-    "colors": [
-      "Caramelo",
-      "Preto",
-      "Cinza",
-      "Abricot"
-    ],
-    "lifeExpectancy": "12 a 15 anos",
-    "adultWeightKg": "6 a 9 kg",
-    "classification": [
-      "Companhia"
-    ]
-  },
-  {
-    "id": 18,
-    "breed": "Vira-lata",
-    "image": "vira_lata.jpg",
-    "size": "Médio",
-    "countryOrigin": "Brasil",
-    "colors": [
-      "Preto",
-      "Caramelo",
-      "Branco",
-      "Mesclado"
-    ],
-    "lifeExpectancy": "12 a 16 anos",
-    "adultWeightKg": "10 a 25 kg",
-    "classification": [
-      "Companhia",
-      "Guarda"
-    ]
-  },
-  {
-    "id": 19,
-    "breed": "Cocker Spaniel",
-    "image": "cocker_spaniel.jpg",
-    "size": "Médio",
-    "countryOrigin": "Reino Unido",
-    "colors": [
-      "Dourado",
-      "Preto",
-      "Marrom",
-      "Tricolor",
-      "Azul ruão"
-    ],
-    "lifeExpectancy": "12 a 15 anos",
-    "adultWeightKg": "12 a 15 kg",
-    "classification": [
-      "Caça",
-      "Companhia"
-    ]
-  },
-  {
-    "id": 20,
-    "breed": "Maltês",
-    "image": "maltes.jpg",
-    "size": "Pequeno",
-    "countryOrigin": "Itália",
-    "colors": [
-      "Branco"
-    ],
-    "lifeExpectancy": "12 a 15 anos",
-    "adultWeightKg": "3 a 4 kg",
-    "classification": [
-      "Companhia"
-    ]
-  },
-  {
-    "id": 21,
-    "breed": "Fila Brasileiro",
-    "image": "fila_brasileiro.jpg",
-    "size": "Grande",
-    "countryOrigin": "Brasil",
-    "colors": [
-      "Caramelo",
-      "Tigrado",
-      "Preto"
-    ],
-    "lifeExpectancy": "9 a 11 anos",
-    "adultWeightKg": "40 a 60 kg",
-    "classification": [
-      "Guarda",
-      "Caça"
-    ]
-  },
-  {
-    "id": 22,
-    "breed": "Fox Paulistinha",
-    "image": "fox_paulistinha.jpg",
-    "size": "Médio",
-    "countryOrigin": "Brasil",
-    "colors": [
-      "Tricolor"
-    ],
-    "lifeExpectancy": "13 a 16 anos",
-    "adultWeightKg": "6 a 10 kg",
-    "classification": [
-      "Companhia",
-      "Competições de agilidade"
-    ]
+    "description": "O Shih Tzu é dócil, sociável e muito apegado à família. Ideal para apartamentos, exige cuidados com os pelos e olhos sensíveis."
   }
 ]
