@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "breed": "Labrador Retriever",
+    "image": "labrador_retriever.jpg",
+    "size": "Médio",
+    "countryOrigin": "Canadá",
+    "colors": [
+      "Preto",
+      "Chocolate",
+      "Amarelo"
+    ],
+    "lifeExpectancy": "10 a 12 anos",
+    "adultWeightKg": "25 a 36 kg",
+    "classification": [
+      "Companhia",
+      "Assistência"
+    ]
+  },
+  {
+    "id": 2,
+    "breed": "Golden Retriever",
+    "image": "golden_retriever.jpg",
+    "size": "Médio",
+    "countryOrigin": "Escócia",
+    "colors": [
+      "Dourado claro",
+      "Dourado médio",
+      "Dourado escuro"
+    ],
+    "lifeExpectancy": "10 a 12 anos",
+    "adultWeightKg": "25 a 34 kg",
+    "classification": [
+      "Companhia",
+      "Assistência"
+    ]
+  },
+  {
+    "id": 3,
+    "breed": "Poodle",
+    "image": "poodle.jpg",
+    "size": "Pequeno",
+    "countryOrigin": "Alemanha",
+    "colors": [
+      "Branco",
+      "Preto",
+      "Marrom",
+      "Cinza",
+      "Dourado",
+      "Apricot"
+    ],
+    "lifeExpectancy": "12 a 15 anos",
+    "adultWeightKg": "6 a 12 kg",
+    "classification": [
+      "Companhia",
+      "Competições de agilidade"
+    ]
+  },
+  {
+    "id": 4,
+    "breed": "Bulldog Francês",
+    "image": "bulldog_frances.jpg",
+    "size": "Pequeno",
+    "countryOrigin": "França",
+    "colors": [
+      "Fulvo",
+      "Tigrado",
+      "Preto",
+      "Branco",
+      "Cinza"
+    ],
+    "lifeExpectancy": "10 a 12 anos",
+    "adultWeightKg": "8 a 14 kg",
+    "classification": [
+      "Companhia"
+    ]
+  },
+  {
+    "id": 5,
+    "breed": "Bulldog Inglês",
+    "image": "bulldog_ingles.jpg",
+    "size": "Médio",
+    "countryOrigin": "Reino Unido",
+    "colors": [
+      "Branco",
+      "Caramelo",
+      "Tigrado",
+      "Vermelho"
+    ],
+    "lifeExpectancy": "8 a 10 anos",
+    "adultWeightKg": "18 a 25 kg",
+    "classification": [
+      "Companhia"
+    ]
+  },
+  {
+    "id": 6,
+    "breed": "Pastor Alemão",
+    "image": "pastor_alemao.jpg",
+    "size": "Grande",
+    "countryOrigin": "Alemanha",
+    "colors": [
+      "Preto e marrom",
+      "Cinza",
+      "Preto sólido"
+    ],
+    "lifeExpectancy": "9 a 13 anos",
+    "adultWeightKg": "22 a 40 kg",
+    "classification": [
+      "Guarda",
+      "Resgate",
+      "Companhia"
+    ]
+  },
+  {
+    "id": 7,
+    "breed": "Beagle",
+    "image": "beagle.jpg",
+    "size": "Médio",
+    "countryOrigin": "Reino Unido",
+    "colors": [
+      "Marrom",
+      "Branco",
+      "Preto",
+      "Tricolor"
+    ],
+    "lifeExpectancy": "12 a 15 anos",
+    "adultWeightKg": "9 a 14 kg",
+    "classification": [
+      "Caça",
+      "Companhia"
+    ]
+  }
+]

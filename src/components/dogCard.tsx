@@ -1,0 +1,46 @@
+import { dogType } from "@/types/dogType";
+import { Card, CardContent, CardTitle } from "./ui/card";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { PawPrint } from "lucide-react";
+import Link from "next/link";
+import { countryToCode } from "@/utils/countryToCode";
+import flags from "emoji-flags";
+
+type props = {
+  dogData: dogType;
+};
+
+export const DogCard = ({ dogData }: props) => {
+  const router = useRouter();
+
+  const code = countryToCode[dogData.countryOrigin];
+  const flag = (flags as unknown as Record<string, typeof flags.AD>)[code]?.emoji;
+
+  return (
+    <Card className="p-2 shadow-md shadow-zinc-400 hover:shadow-lg cursor-pointer transition" onClick={() => router.replace(`/${dogData.id}`)}>
+      <CardContent className="p-0 flex flex-col gap-4">
+        <div className="w-full h-64 sm:h-48 md:h-40 2xl:h-52 rounded-md overflow-hidden">
+          <Image
+            src={`/dogs/${dogData.image}`}
+            alt={'imagem do cachorro ' + dogData.breed}
+            width={400}
+            height={400}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="flex flex-col">
+          <CardTitle>{dogData.breed}</CardTitle>
+          <p className="text-sm my-1">
+            {flag && <span className="mr-1">{flag}</span>}
+            {dogData.countryOrigin}
+          </p>
+        </div>
+      </CardContent>
+      <Link href={`/${dogData.id}`} className="flex gap-2 items-center border-b border-transparent hover:border-blue-900 w-fit">
+        <p className="text-xs sm:text-sm text-blue-900 cursor-pointer">Ver mais</p>
+        <PawPrint className="w-4 text-blue-900" />
+      </Link>
+    </Card>
+  );
+};
