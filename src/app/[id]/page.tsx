@@ -1,6 +1,8 @@
 "use client"
 import { DogDetails } from "@/components/layout/details/dogDetails";
 import { Header } from "@/components/layout/header";
+import { Loading } from "@/components/loading";
+import { LogoPulsing } from "@/components/logoPulsing";
 import { dogType } from "@/types/dogType";
 import { containerStyle } from "@/utils/styles";
 import Link from "next/link";
@@ -12,7 +14,7 @@ const Page = () => {
   const [dogData, setDogData] = useState<dogType | null>(null);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_LINK}/${id}`)
+    fetch(`${process.env.NEXT_PUBLIC_API_LINK}${id}`)
       .then(res => res.json())
       .then(data => setDogData(data))
       .catch(err => {
@@ -29,7 +31,7 @@ const Page = () => {
           <Link href={`/${id}`} className="hover:underline">/{dogData?.breed || 'Cachorro'}</Link>
         </div>
         {!dogData
-          ? <p className="text-center py-10">Carregando dados...</p>
+          ? <Loading/>
           : <DogDetails dogData={dogData!} />
         }
       </div>

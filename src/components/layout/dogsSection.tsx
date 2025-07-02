@@ -4,6 +4,8 @@ import { AsideDogs } from "./asideDogs"
 import { useEffect, useState } from "react"
 import { dogType } from "@/types/dogType"
 import { MainDogs } from "./mainDogs"
+import { LogoPulsing } from "../logoPulsing"
+import { Loading } from "../loading"
 
 export const DogsSection = () => {
   const [dogsData, setDogsData] = useState<dogType[] | null>(null);
@@ -27,7 +29,7 @@ export const DogsSection = () => {
   return (
     <section id="dogs">
       {!dogsData
-        ? <p className="text-center py-10">Carregando dados...</p>
+        ? <Loading/>
         :
         <div className={containerStyle}>
           <div className="flex items-start">

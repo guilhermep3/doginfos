@@ -17,11 +17,11 @@ export const DogCard = ({ dogData }: props) => {
   const code = countryToCode[dogData.countryOrigin];
   const flag = (flags as unknown as Record<string, typeof flags.AD>)[code]?.emoji;
   const pawSize = () => {
-    if( dogData.size === 'Pequeno'){
+    if (dogData.size === 'Pequeno') {
       return 'P';
-    } else if (dogData.size === 'Médio'){
+    } else if (dogData.size === 'Médio') {
       return 'M';
-    } else if(dogData.size === 'Grande'){
+    } else if (dogData.size === 'Grande') {
       return 'G';
     };
   }
@@ -29,7 +29,7 @@ export const DogCard = ({ dogData }: props) => {
   return (
     <Card className="p-2 shadow-md shadow-zinc-400 hover:shadow-lg cursor-pointer transition" onClick={() => router.push(`/${dogData.id}`)}>
       <CardContent className="p-0 flex flex-col gap-4">
-        <div className="w-full h-64 sm:h-48 md:h-40 2xl:h-52 rounded-md overflow-hidden">
+        <div className="w-full h-56 sm:h-48 md:h-40 2xl:h-52 rounded-md overflow-hidden">
           <Image
             src={`/dogs/${dogData.image}`}
             alt={'imagem do cachorro ' + dogData.breed}
@@ -42,7 +42,7 @@ export const DogCard = ({ dogData }: props) => {
           <div className="flex justify-between items-center">
             <CardTitle>{dogData.breed}</CardTitle>
             <div className="relative">
-              <PawPrint className="text-yellow-400 fill-yellow-400"  />
+              <PawPrint className="text-yellow-400 fill-yellow-400" />
               <span className="absolute top-1/2 left-1/2 -translate-1/2 text-base font-extrabold text-blue-950">{pawSize()}</span>
             </div>
           </div>
