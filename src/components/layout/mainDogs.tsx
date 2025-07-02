@@ -6,18 +6,20 @@ import { useState } from "react";
 type props = {
   dogsData: dogType[];
   selectedSize: string[];
+  selectedClassification: string[];
   selectedColor: string[];
   selectedCountry: string[];
 }
 
-export const MainDogs = ({ dogsData, selectedSize, selectedColor, selectedCountry }: props) => {
+export const MainDogs = ({ dogsData, selectedSize, selectedClassification, selectedColor, selectedCountry }: props) => {
   const [sortBy, setSortBy] = useState('');
 
   const filteredDogs = dogsData.filter(dog => {
     const sizeMatch = selectedSize.length === 0 || selectedSize.includes(dog.size);
+    const colorMath = selectedClassification.length === 0 || dog.classification.some(c => selectedClassification.includes(c));
     const colorMatch = selectedColor.length === 0 || dog.colors.some(c => selectedColor.includes(c));
     const countryMatch = selectedCountry.length === 0 || selectedCountry.includes(dog.countryOrigin);
-    return sizeMatch && colorMatch && countryMatch;
+    return sizeMatch && colorMath && colorMatch && countryMatch;
   });
 
   const sortedDogs = [...filteredDogs].sort((a, b) => {

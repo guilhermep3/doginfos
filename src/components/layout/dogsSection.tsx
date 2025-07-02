@@ -4,12 +4,12 @@ import { AsideDogs } from "./asideDogs"
 import { useEffect, useState } from "react"
 import { dogType } from "@/types/dogType"
 import { MainDogs } from "./mainDogs"
-import { LogoPulsing } from "../logoPulsing"
 import { Loading } from "../loading"
 
 export const DogsSection = () => {
   const [dogsData, setDogsData] = useState<dogType[] | null>(null);
   const [selectedSize, setSelectedSize] = useState<string[]>([]);
+  const [selectedClassification, setSelectedClassification] = useState<string[]>([]);
   const [selectedColor, setSelectedColor] = useState<string[]>([]);
   const [selectedCountry, setSelectedCountry] = useState<string[]>([]);
 
@@ -35,12 +35,14 @@ export const DogsSection = () => {
           <div className="flex items-start">
             <AsideDogs dogsData={dogsData}
               selectedSize={selectedSize} setSelectedSize={setSelectedSize}
+              selectedClassification={selectedClassification} setSelectedClassification={setSelectedClassification}
               selectedColor={selectedColor} setSelectedColor={setSelectedColor}
               selectedCountry={selectedCountry} setSelectedCountry={setSelectedCountry}
-            />
+              />
             <MainDogs
               dogsData={dogsData}
               selectedSize={selectedSize}
+              selectedClassification={selectedClassification}
               selectedColor={selectedColor}
               selectedCountry={selectedCountry}
             />

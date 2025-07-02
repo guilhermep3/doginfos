@@ -10,9 +10,11 @@ const asideTitleStyle = "p-3 bg-gray-200 border-l-4 border-blue-700 font-bold te
 type props = {
   dogsData: dogType[];
   selectedSize: string[];
+  selectedClassification: string[];
   selectedColor: string[];
   selectedCountry: string[];
   setSelectedSize: (i: string[]) => void;
+  setSelectedClassification: (i: string[]) => void;
   setSelectedColor: (i: string[]) => void;
   setSelectedCountry: (i: string[]) => void;
 }
@@ -20,6 +22,7 @@ type props = {
 export const AsideDogs = ({
   dogsData,
   selectedSize, setSelectedSize,
+  selectedClassification, setSelectedClassification,
   selectedColor, setSelectedColor,
   selectedCountry, setSelectedCountry
 }: props) => {
@@ -32,6 +35,9 @@ export const AsideDogs = ({
 
   const uniqueSizes = [...new Set(dogsData.map(dog => dog.size)
     .sort((a, b) => sizeOrder.indexOf(a) - sizeOrder.indexOf(b))
+  )];
+  const uniqueClassifications = [...new Set(dogsData.flatMap(dog => dog.classification)
+    .sort((a, b) => a.localeCompare(b))
   )];
   const uniqueColors = [...new Set(dogsData.flatMap(dog => dog.colors)
     .sort((a, b) => a.localeCompare(b))
@@ -75,6 +81,14 @@ export const AsideDogs = ({
           {uniqueSizes.map(size => (
             <AsideItem key={size} label={size}
               selectedList={selectedSize} setSelectedList={setSelectedSize}
+            />
+          ))}
+        </div>
+        <p className={asideTitleStyle}>Classificação</p>
+        <div className="py-2">
+          {uniqueClassifications.map(size => (
+            <AsideItem key={size} label={size}
+              selectedList={selectedClassification} setSelectedList={setSelectedClassification}
             />
           ))}
         </div>
