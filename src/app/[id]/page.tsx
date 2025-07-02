@@ -12,7 +12,7 @@ const Page = () => {
   const [dogData, setDogData] = useState<dogType | null>(null);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_LINK!}/${id}`)
+    fetch(`${process.env.NEXT_PUBLIC_API_LINK}/${id}`)
       .then(res => res.json())
       .then(data => setDogData(data))
       .catch(err => {

@@ -26,7 +26,7 @@ export const HeroSection = () => {
           <div className="absolute -bottom-4 bg-blue-900 left-1/2 -translate-x-1/2 w-4/5 h-4/5 max-w-[480px] max-h-[360px] lg:max-h-[480px] rounded-[64px] rotate-12"></div>
           <div className="absolute -bottom-10 bg-[var(--caramel)] left-1/2 -translate-x-1/2 w-4/5 h-4/5 max-w-[520px] max-h-[400px] lg:max-h-[520px] rounded-4xl rotate-[30deg]"></div>
           <div className="w-10/12 md:w-full z-[1]">
-            <Image src={'/hero-dogsinfos.png'} alt="informações sobre cachorros"
+            <Image src={'/hero-image.png'} alt="informações sobre cachorros"
               className="w-full"
               width={600} height={600}
             />
