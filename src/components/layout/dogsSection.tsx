@@ -25,7 +25,7 @@ export const DogsSection = () => {
   }, [dogsData])
 
   return (
-    <section>
+    <section id="dogs">
       {!dogsData
         ? <p className="text-center py-10">Carregando dados...</p>
         :

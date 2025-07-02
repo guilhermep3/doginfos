@@ -8,4 +8,5 @@ export type dogType = {
   lifeExpectancy: string;
   adultWeightKg: string;
   classification: string[];
+  description: string;
 };

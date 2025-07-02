@@ -79,6 +79,10 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 32px;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }

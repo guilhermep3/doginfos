@@ -13,10 +13,6 @@ export const AsideItem = ({ label, selectedList, setSelectedList }: Props) => {
     } else {
       setSelectedList([...selectedList, label]);
     }
-    setTimeout(() => {
-
-      console.log(selectedList)
-    }, 200);
   }
 
   return (

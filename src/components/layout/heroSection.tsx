@@ -18,6 +18,7 @@ export const HeroSection = () => {
           <Button label="Ver mais"
             icon={<ChevronDown />}
             className="mx-auto md:mx-0"
+            onClick="#dogs"
           />
         </div>
         <div className="relative md:flex-1 flex items-end">
